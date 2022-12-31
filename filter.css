@@ -1,0 +1,74 @@
+.body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    
+
+}
+.leftMenu{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+}
+.search{
+    padding: 10px;
+    width: 150px;
+    border-radius: 18px;
+    /* cursor:pointer; */
+    color: grey;
+    border: 1px solid gray
+}
+h1{
+    font-size: 20px;
+    color: rgb(117, 112, 112);
+    font-weight: bold;
+}
+.cats{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.cat{
+    color: gray;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+.content{
+    flex: 4;
+    
+}
+.products{
+    display:flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.product{
+    width: 250px;
+    /* height: 250px; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 10px;
+}
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.name{
+    font-weight: 300;
+    color: gray;
+}
+
